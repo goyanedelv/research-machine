@@ -1,0 +1,12 @@
+# Ignore generated papers and notes
+output_document/*.md
+output_document/*.pdf
+references/*.md
+references/*.pdf
+research_notes/*.md
+research_notes/*.pdf
+
+# Do not ignore the sample files
+!output_document/sample_output.md
+!references/sample_references.md
+!research_notes/sample_notes.md
